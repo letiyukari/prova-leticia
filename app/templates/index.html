@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Avaliação Semestral{% endblock %}
+
+{% block page_content %}
+
+<div class="page-header">
+    <h1>Avaliação Semestral</h1>
+    <h3>Aluno: Letícia Yukari Ishizawa</h3>
+    <h3>Prontuário: PT3025969</h3>
+</div>
+<br>
+<p>A data e hora local é {{ moment(current_time).format('LLL') }}.</p>
+
+{% endblock %}
